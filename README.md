@@ -96,6 +96,8 @@ CREATE DATABASE last_mile_delivery;
 
  <img width="682" height="307" alt="image" src="https://github.com/user-attachments/assets/354c3d8c-8fb0-41d3-ad8d-855694d29cc9" />
 
+##
+
 
 ## 🔗 API Endpoints
 
@@ -181,8 +183,6 @@ Result shown on screen
 https://drive.google.com/drive/folders/1j-q6RlUvNrUgKCSZeCFe3HjL9C-46W48?usp=sharing
 
 
-
-
 ## 📱 App interfaces
 
 ### 👋 Intro
@@ -224,13 +224,20 @@ https://drive.google.com/drive/folders/1j-q6RlUvNrUgKCSZeCFe3HjL9C-46W48?usp=sha
 ### 🔹 Backend Setup
 cd backend
 npm install
+npm i node.js , express.js , nodemone
 cp .env.example .env
+change script in package.json to 
+"scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  }
 npm run dev
 
 
 ### 🔹 Mobile App Setup
 cd mobile-app
 npm install
+
 npx expo start
 
 
