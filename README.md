@@ -56,6 +56,11 @@ Delivery status
 
 5️⃣ Backend returns result with proper HTTP status codes
 
+## Architecture Diagram
+
+<img width="419" height="622" alt="image" src="https://github.com/user-attachments/assets/f76629de-d180-48d5-9fe3-38a1853973bd" />
+
+
 ## 🛠 Tech Stack
 ### 🔹 Backend
 
