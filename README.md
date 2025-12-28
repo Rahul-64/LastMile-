@@ -224,14 +224,20 @@ https://drive.google.com/drive/folders/1j-q6RlUvNrUgKCSZeCFe3HjL9C-46W48?usp=sha
 ### 🔹 Backend Setup
 cd backend
 npm install
+
 npm i node.js , express.js , nodemone
+
 cp .env.example .env
+
 change script in package.json to 
+
 "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js"
-  }
+}
+
 npm run dev
+
 
 
 ### 🔹 Mobile App Setup
